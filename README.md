@@ -28,7 +28,7 @@ struct GoldenButton: View {
 }
 ```
 
-![Golden Button Preview]("https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/GoldenButtonPreview.png")
+![Golden Button Preview](https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/blob/main/GoldenButtonPreview.png)
 
 - Un texte avec une couleur d'un fond d'image (ici de l'or):
 ```swift
@@ -39,7 +39,7 @@ Text("BONNE ANNÉE 2023")
     .multilineTextAlignment(.center)
 ```
 
-![Golden Text Preview]("https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/GoldenTextPreview.png")
+![Golden Text Preview](https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/blob/main/GoldenButtonPreview.png)
 
 **Voilà :)**
 
