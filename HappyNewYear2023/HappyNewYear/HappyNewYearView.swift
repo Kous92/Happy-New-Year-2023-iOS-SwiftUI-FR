@@ -20,7 +20,7 @@ struct HappyNewYearView: View {
     
     var body: some View {
         ZStack {
-            if showImage {
+            if showImage && !image.isEmpty {
                 Image(image)
                     .resizable()
                     .ignoresSafeArea(.all)
@@ -32,15 +32,16 @@ struct HappyNewYearView: View {
             GeometryReader { geometry in
                 if showMainText {
                     VStack(spacing: 10) {
-                        Text("BONNE ANNÉE")
-                            .font(.system(size: 50))
+                        Text("happyNewYear")
+                            .font(.system(size: Constants.HappyNewYearAnimation.happyNewYearFontSize))
                             .fontWeight(.medium)
                             .foregroundStyle(.image(Image("GoldFoil")))
                             .glowBorder(color: .black, lineWidth: 2)
                             .multilineTextAlignment(.center)
+                            .padding(.horizontal, 20)
                             
                         Text("2023")
-                            .font(.system(size: 90))
+                            .font(.system(size: Constants.HappyNewYearAnimation.yearFontSize))
                             .fontWeight(.medium)
                             .foregroundStyle(.image(Image("GoldFoil")))
                             .glowBorder(color: .black, lineWidth: 2)
@@ -50,16 +51,17 @@ struct HappyNewYearView: View {
                 
                 if showSecondText {
                     VStack {
-                        Text(newYearMessage)
-                            .font(.system(size: 30))
+                        Text(NSLocalizedString(newYearMessage, comment: ""))
+                            .font(.system(size: Constants.HappyNewYearAnimation.messageFontSize))
                             .foregroundStyle(.image(Image("GoldFoil")))
                             .fontWeight(.semibold)
                             .glowBorder(color: .black, lineWidth: 2)
                             .transition(.opacity)
                             .opacity(showSecondText ? 1 : 0)
                             .multilineTextAlignment(.center)
-                            .position(x: geometry.size.width / 2, y: geometry.size.height - 80)
+                            .padding(.horizontal, 20)
                     }
+                    .position(x: geometry.size.width / 2, y: geometry.size.height - Constants.HappyNewYearAnimation.messageYposition)
                 }
             }.zIndex(2)
         }
@@ -89,7 +91,7 @@ struct HappyNewYearView: View {
             if seconds % 8 == 0 {
                 switchImageAnimation()
             }
-        }
+        }.background(.black)
     }
     
     private func switchImageAnimation() {
@@ -99,6 +101,7 @@ struct HappyNewYearView: View {
         }
         
         withAnimation(Animation.easeInOut(duration: 1)) {
+            image = ""
             showImage.toggle()
             showSecondText.toggle()
         }
@@ -124,7 +127,16 @@ struct HappyNewYearView: View {
 
 struct ImageAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        HappyNewYearView()
-            .preferredColorScheme(.dark)
+        Group {
+            HappyNewYearView()
+                .preferredColorScheme(.dark)
+                .previewDisplayName("HappyNewYear (iPhone)")
+                .previewDevice("iPhone 14 Pro")
+            
+            HappyNewYearView()
+                .preferredColorScheme(.dark)
+                .previewDisplayName("HappyNewYear (iPad)")
+                .previewDevice("iPad Pro (11-inch)(4th generation)")
+        }
     }
 }

@@ -12,9 +12,11 @@
 		4B2E4335294CF06000698758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E4334294CF06000698758 /* Preview Assets.xcassets */; };
 		4B2E433C294D2AF500698758 /* HappyNewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E433B294D2AF500698758 /* HappyNewYearView.swift */; };
 		4B53A14A295A4C6D00C44FF0 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53A149295A4C6D00C44FF0 /* ViewExtensions.swift */; };
+		4B53A14F295A623100C44FF0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B53A151295A623100C44FF0 /* Localizable.strings */; };
 		4B63FA432957B0AD00A1F51C /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63FA422957B0AD00A1F51C /* CountdownView.swift */; };
 		4B63FA452957B3ED00A1F51C /* GlowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63FA442957B3ED00A1F51C /* GlowBorder.swift */; };
 		4B63FA472957B9BE00A1F51C /* GoldenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63FA462957B9BE00A1F51C /* GoldenButton.swift */; };
+		4B80587B295CF24C00D975B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80587A295CF24C00D975B8 /* Constants.swift */; };
 		4BBEC0C82958FF34005DEB45 /* HappyNewYearViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC0C72958FF34005DEB45 /* HappyNewYearViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +27,12 @@
 		4B2E4334294CF06000698758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B2E433B294D2AF500698758 /* HappyNewYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearView.swift; sourceTree = "<group>"; };
 		4B53A149295A4C6D00C44FF0 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		4B53A150295A623100C44FF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B63FA422957B0AD00A1F51C /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		4B63FA442957B3ED00A1F51C /* GlowBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowBorder.swift; sourceTree = "<group>"; };
 		4B63FA462957B9BE00A1F51C /* GoldenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenButton.swift; sourceTree = "<group>"; };
+		4B80587A295CF24C00D975B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B88F1F5295A65470011C6D7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4BBEC0C72958FF34005DEB45 /* HappyNewYearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +71,7 @@
 				4B2E432D294CF05F00698758 /* HappyNewYear2023App.swift */,
 				4B2E4331294CF06000698758 /* Assets.xcassets */,
 				4B2E4333294CF06000698758 /* Preview Content */,
+				4B53A151295A623100C44FF0 /* Localizable.strings */,
 			);
 			path = HappyNewYear2023;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				4B63FA462957B9BE00A1F51C /* GoldenButton.swift */,
 				4B63FA442957B3ED00A1F51C /* GlowBorder.swift */,
 				4B53A149295A4C6D00C44FF0 /* ViewExtensions.swift */,
+				4B80587A295CF24C00D975B8 /* Constants.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 4B2E4321294CF05F00698758;
 			productRefGroup = 4B2E432B294CF05F00698758 /* Products */;
@@ -157,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2E4335294CF06000698758 /* Preview Assets.xcassets in Resources */,
+				4B53A14F295A623100C44FF0 /* Localizable.strings in Resources */,
 				4B2E4332294CF06000698758 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,16 +184,30 @@
 				4B63FA452957B3ED00A1F51C /* GlowBorder.swift in Sources */,
 				4B63FA432957B0AD00A1F51C /* CountdownView.swift in Sources */,
 				4B2E432E294CF05F00698758 /* HappyNewYear2023App.swift in Sources */,
+				4B80587B295CF24C00D975B8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B53A151295A623100C44FF0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B53A150295A623100C44FF0 /* en */,
+				4B88F1F5295A65470011C6D7 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4B2E4336294CF06000698758 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -231,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -285,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -309,8 +333,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,8 +362,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,6 +14,7 @@ class HappyNewYearViewModel: ObservableObject {
     func initData() {
         imageData = ["HappyNewYearFireworks", "HappyNewYearParis", "HappyNewYearDubai1", "HappyNewYearDubai2", "HappyNewYearGold"]
         
-        messageData = ["Meilleurs vœux", "Bonne santé", "Plein de bonheur", "Plein de réussite", "Et surtout de la stabilité au niveau professionnel"]
+        // Ces chaînes sont des clés pour le support multi-langues de l'application
+        messageData = ["bestWishes", "goodHealth", "lotOfHappiness", "lotOfSuccess", "professionalStability"]
     }
 }

@@ -1,7 +1,8 @@
 # Bonne année 2023 iOS - SwiftUI
 
-Au niveau global, 2022 aura été une année vraiment difficile notamment avec l'inflation liée au conflit entre l'Ukraine et la Russie, mais avec une belle Coupe du Monde de la FIFA au Qatar.<br>
-À titre personnel, 2022 aura été une année de progrès au niveau professionnel car j'ai enfin pu commencer ma carrière de développeur **iOS** chez Netgem et Withings même si je n'ai pas encore pu me stabiliser, c'est déjà bien mieux que les années 2020 et 2021 qui ont été très difficiles moralement (avec le contexte COVID surtout).
+Au niveau global, 2022 aura été une année vraiment difficile notamment avec l'inflation liée au conflit entre l'Ukraine et la Russie, mais avec une belle Coupe du Monde de la FIFA au Qatar riche en exploits historiques.
+
+À titre personnel, 2022 aura été une année de progrès au niveau professionnel car j'ai enfin pu commencer ma carrière de développeur **iOS** chez Netgem et Withings. Même si je n'ai pas encore pu me stabiliser (avec les périodes d'essai), c'est déjà bien mieux que les années 2020 et 2021 qui ont été très difficiles moralement (avec le contexte COVID surtout).
 
 Je vous propose ici une petite application **iOS** codée de façon authentique en natif avec **Xcode 14.2**, **Swift 5.7** et avec **SwiftUI** pour mes débuts sur ce framework d'Apple.
 
@@ -10,7 +11,7 @@ Par rapport à ceux que j'ai réalisé en 2020 et 2021, j'ai relevé le défi d'
 - Par rapport à **UIKit** pour le positionnement à l'aide des contraintes avec **Auto Layout**, c'est compliqué au début avec **SwiftUI** pour le positionnement, l'alignement et les marges.
 - Le chaînage des animations entre les images et les textes avec un timer, le temps à définir pour les transitions,...
 
-Avec SwiftUI, le code est tout de même plus simple qu'avec UIKit en nombre de lignes de code, en matière de possibilités de faire des vues personnalisées, comme par exemple avec:
+Avec **SwiftUI**, le code est tout de même plus simple qu'avec **UIKit** en nombre de lignes de code, en matière de possibilités de faire des vues personnalisées, comme par exemple avec:
 - Un bouton avec une image de fond
 ```swift
 struct GoldenButton: View {
@@ -39,7 +40,7 @@ Text("BONNE ANNÉE 2023")
     .multilineTextAlignment(.center)
 ```
 
-![Golden Text Preview](https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/blob/main/GoldenButtonPreview.png)
+![Golden Text Preview](https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/blob/main/GoldenTextPreview.png)
 
 **Voilà :)**
 

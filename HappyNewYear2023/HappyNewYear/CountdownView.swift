@@ -26,7 +26,7 @@ struct CountdownView: View {
             GeometryReader { geometry in
                 VStack {
                     Text("\(countdownSeconds)")
-                        .font(.system(size: 165))
+                        .font(.system(size: Constants.Countdown.countdownFontSize))
                         .fontWeight(.medium)
                         .foregroundStyle(.image(Image("GoldFoil")))
                         .glowBorder(color: .black, lineWidth: 2)
@@ -55,10 +55,11 @@ struct CountdownView: View {
                     }
                     .hide(isHidden: hideButton)
                     .frame(alignment: .bottom)
-                    .padding(.bottom, 10)
+                    .padding(.bottom, Constants.Countdown.goldenButtonBottomMargin)
                 }
-            }.zIndex(1)
-        }
+            }
+            .zIndex(1)
+        }.background(.black)
     }
     
     private func updateCountdown() {
@@ -78,6 +79,16 @@ struct CountdownView: View {
 
 struct CountdownView_Previews: PreviewProvider {
     static var previews: some View {
-        CountdownView()
+        Group {
+            CountdownView()
+                .preferredColorScheme(.dark)
+                .previewDisplayName("Countdown (iPhone)")
+                .previewDevice("iPhone 14 Pro")
+            
+            CountdownView()
+                .preferredColorScheme(.dark)
+                .previewDisplayName("Countdown (iPad)")
+                .previewDevice("iPad Pro (11-inch)(4th generation)")
+        }
     }
 }
