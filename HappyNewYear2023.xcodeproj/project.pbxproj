@@ -40,6 +40,7 @@
 		4B805881295D042900D975B8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B805882295D055900D975B8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B805883295D062C00D975B8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B805884295D074100D975B8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B88F1F5295A65470011C6D7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4BBEC0C72958FF34005DEB45 /* HappyNewYearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +165,7 @@
 				ar,
 				nl,
 				ja,
+				ru,
 			);
 			mainGroup = 4B2E4321294CF05F00698758;
 			productRefGroup = 4B2E432B294CF05F00698758 /* Products */;
@@ -220,6 +222,7 @@
 				4B805881295D042900D975B8 /* ar */,
 				4B805882295D055900D975B8 /* nl */,
 				4B805883295D062C00D975B8 /* ja */,
+				4B805884295D074100D975B8 /* ru */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
