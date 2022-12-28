@@ -33,6 +33,7 @@
 		4B63FA462957B9BE00A1F51C /* GoldenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenButton.swift; sourceTree = "<group>"; };
 		4B80587A295CF24C00D975B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4B80587C295CFEFF00D975B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B80587D295D007500D975B8 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B88F1F5295A65470011C6D7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4BBEC0C72958FF34005DEB45 /* HappyNewYearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +151,7 @@
 				Base,
 				fr,
 				es,
+				de,
 			);
 			mainGroup = 4B2E4321294CF05F00698758;
 			productRefGroup = 4B2E432B294CF05F00698758 /* Products */;
@@ -199,6 +201,7 @@
 				4B53A150295A623100C44FF0 /* en */,
 				4B88F1F5295A65470011C6D7 /* fr */,
 				4B80587C295CFEFF00D975B8 /* es */,
+				4B80587D295D007500D975B8 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
