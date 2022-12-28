@@ -41,6 +41,7 @@
 		4B805882295D055900D975B8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B805883295D062C00D975B8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B805884295D074100D975B8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B805885295D083D00D975B8 /* kab-DZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kab-DZ"; path = "kab-DZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4B88F1F5295A65470011C6D7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4BBEC0C72958FF34005DEB45 /* HappyNewYearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +167,7 @@
 				nl,
 				ja,
 				ru,
+				"kab-DZ",
 			);
 			mainGroup = 4B2E4321294CF05F00698758;
 			productRefGroup = 4B2E432B294CF05F00698758 /* Products */;
@@ -223,6 +225,7 @@
 				4B805882295D055900D975B8 /* nl */,
 				4B805883295D062C00D975B8 /* ja */,
 				4B805884295D074100D975B8 /* ru */,
+				4B805885295D083D00D975B8 /* kab-DZ */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
