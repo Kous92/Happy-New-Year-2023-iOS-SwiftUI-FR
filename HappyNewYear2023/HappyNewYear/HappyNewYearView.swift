@@ -135,8 +135,13 @@ struct ImageAnimationView_Previews: PreviewProvider {
             
             HappyNewYearView()
                 .preferredColorScheme(.dark)
+                .previewDisplayName("HappyNewYear (iPhone)")
+                .previewDevice("iPhone SE (3rd generation)")
+            
+            HappyNewYearView()
+                .preferredColorScheme(.dark)
                 .previewDisplayName("HappyNewYear (iPad)")
-                .previewDevice("iPad Pro (11-inch)(4th generation)")
+                .previewDevice("iPad Pro (11-inch) (4th generation)")
         }
     }
 }

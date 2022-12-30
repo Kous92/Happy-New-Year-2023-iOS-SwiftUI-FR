@@ -87,8 +87,13 @@ struct CountdownView_Previews: PreviewProvider {
             
             CountdownView()
                 .preferredColorScheme(.dark)
+                .previewDisplayName("Countdown (iPhone SE)")
+                .previewDevice("iPhone SE (3rd generation)")
+            
+            CountdownView()
+                .preferredColorScheme(.dark)
                 .previewDisplayName("Countdown (iPad)")
-                .previewDevice("iPad Pro (11-inch)(4th generation)")
+                .previewDevice("iPad Pro (11-inch) (4th generation)")
         }
     }
 }

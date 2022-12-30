@@ -37,6 +37,12 @@ struct GoldenButton_Previews: PreviewProvider {
                 .preferredColorScheme(.dark)
                 .previewLayout(.sizeThatFits)
                 .environment(\.locale, Locale(identifier: "fr"))
+            
+            GoldenButton()
+                .previewDisplayName("GoldenButton")
+                .preferredColorScheme(.dark)
+                .previewLayout(.sizeThatFits)
+                .environment(\.locale, Locale(identifier: "kab-DZ"))
         }
         
     }
