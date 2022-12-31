@@ -42,6 +42,35 @@ Text("BONNE ANNÉE 2023")
 
 ![Golden Text Preview](https://github.com/Kous92/Happy-New-Year-2023-iOS-SwiftUI-FR/blob/main/GoldenTextPreview.png)
 
+L'application est disponible en 13 langues:
+- Français
+- Anglais
+- Espagnol
+- Arabe
+- Kabyle
+- Allemand
+- Néerlandais
+- Italien
+- Portugais
+- Turc
+- Coréen
+- Japonais
+- Russe
+
 **Voilà :)**
 
 **En toutes circonstances, je vous souhaite une très bonne année 2023, bonne santé, meilleurs vœux. Qu'elle soit meilleure et qu'elle soit synonyme de progrès et de stabilité.**
+
+# BONNE ANNÉE
+# HAPPY NEW YEAR
+# FELIZ AÑO NUEVO
+# عام سعيد
+# ASSEGWAS AMEGGAZ
+# FROHES NEUES JAHR
+# GELUKKIG NIEUWJAAR
+# BUON ANNO
+# FELIZ ANO NOVO
+# MUTLU YILLAR
+# 새해 복 많이 받으세요
+# あけましておめでとうございます
+# С НОВЫМ ГОДОМ
